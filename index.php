@@ -20,7 +20,7 @@ if(isset($_POST['filmcategory'])) {
         <a href="films.php?view=<?php $result1->data_seek($j);
         echo $result1->fetch_assoc()['name']; ?>">About the movie</a>
         <?php
-
+//add new comment
     }
 }
 else{
